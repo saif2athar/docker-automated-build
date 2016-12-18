@@ -7,5 +7,5 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 RUN echo "nginx on Fedora" > /usr/share/nginx/html/index.html
 
 EXPOSE 80
-
+checking modifications
 CMD [ "/usr/sbin/nginx" ]
